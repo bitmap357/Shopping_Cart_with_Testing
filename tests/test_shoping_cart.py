@@ -24,3 +24,11 @@ def test_get_cart_items():
     items = cart.get_cart_items()
     assert "apple" in items
     assert "banana" in items
+
+
+def test_clear_cart():
+    cart = ShoppingCart()
+    cart.add_item("apple", 2)
+    cart.clear_cart()
+    assert cart.get_total_items() == 0
+    assert cart.get_cart_items() == []
