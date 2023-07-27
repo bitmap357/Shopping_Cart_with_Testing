@@ -7,3 +7,11 @@ def test_add_item():
     cart.add_item("apple", 2)
     assert cart.get_item_count("apple") == 2
     assert cart.get_total_items() == 2
+
+
+def test_remove_item():
+    cart = ShoppingCart()
+    cart.add_item("apple", 3)
+    cart.remove_item("apple", 2)
+    assert cart.get_item_count("apple") == 1
+    assert cart.get_total_items() == 1
