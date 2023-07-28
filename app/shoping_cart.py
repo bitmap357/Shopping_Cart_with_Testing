@@ -1,3 +1,4 @@
+# Creating the class for the shopping cart
 class ShoppingCart:
     def __init__(self):
         self.items = {}
