@@ -25,6 +25,7 @@ class ShoppingCart:
         else:
             return 0
 
+    # The get total items function
     def get_total_items(self):
         return sum(self.items.values())
 
