@@ -8,6 +8,7 @@ def cart():
     return ShoppingCart()
 
 
+# The function to test the add item
 def test_add_item(cart):
     cart.add_item("apple", 2)
     assert cart.get_item_count("apple") == 2
