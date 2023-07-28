@@ -33,5 +33,6 @@ class ShoppingCart:
     def get_cart_items(self):
         return list(self.items.keys())
 
+    # The clear cart function
     def clear_cart(self):
         self.items = {}
