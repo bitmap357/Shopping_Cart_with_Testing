@@ -29,6 +29,7 @@ class ShoppingCart:
     def get_total_items(self):
         return sum(self.items.values())
 
+    # The get cart items function
     def get_cart_items(self):
         return list(self.items.keys())
 
