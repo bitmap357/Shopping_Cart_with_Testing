@@ -4,6 +4,7 @@ class ShoppingCart:
     def __init__(self):
         self.items = {}
 
+    # The add item function
     def add_item(self, item, quantity):
         if item in self.items:
             self.items[item] += quantity
