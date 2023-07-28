@@ -18,6 +18,7 @@ class ShoppingCart:
         else:
             self.items[item] -= quantity
 
+    # The get item count function
     def get_item_count(self, item):
         if item in self.items:
             return self.items[item]
