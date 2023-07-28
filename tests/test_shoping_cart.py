@@ -2,6 +2,7 @@ from app.shoping_cart import ShoppingCart
 import pytest
 
 
+# The decorator for fixtures and the function to hold the shopping cart object
 @pytest.fixture
 def cart():
     return ShoppingCart()
