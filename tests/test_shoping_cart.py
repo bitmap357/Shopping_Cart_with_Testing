@@ -32,6 +32,7 @@ def test_get_cart_items(cart):
     assert "banana" in items
 
 
+# The function to test the clear cart 
 def test_clear_cart(cart):
     cart.add_item("apple", 2)
     cart.clear_cart()
