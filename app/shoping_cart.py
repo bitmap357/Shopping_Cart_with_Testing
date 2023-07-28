@@ -1,5 +1,6 @@
 # Creating the class for the shopping cart
 class ShoppingCart:
+    # Defining the init function
     def __init__(self):
         self.items = {}
 
