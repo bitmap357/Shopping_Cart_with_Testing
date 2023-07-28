@@ -23,6 +23,7 @@ def test_remove_item(cart):
     assert cart.get_total_items() == 1
 
 
+# The function to test the get cart items
 def test_get_cart_items(cart):
     cart.add_item("apple", 2)
     cart.add_item("banana", 3)
