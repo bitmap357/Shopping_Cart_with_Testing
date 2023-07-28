@@ -11,6 +11,7 @@ class ShoppingCart:
         else:
             self.items[item] = quantity
 
+    # The remove item function
     def remove_item(self, item, quantity):
         if quantity >= self.items[item]:
             del self.items[item]
